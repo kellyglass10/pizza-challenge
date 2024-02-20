@@ -1,0 +1,44 @@
+body {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+  background-attachment: fixed;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.description {
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+.pizza-photo {
+  max-width: 50%;
+  border-radius: 10px;
+  display: block;
+  margin: 40px auto;
+}
+
+.email-link {
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
